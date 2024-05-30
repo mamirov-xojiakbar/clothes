@@ -3,7 +3,7 @@ import { state } from '../store';
 </script>
 
 <template>
-  <div class="container mt-[10px] flex box-border gap-10 justify-between">
+  <div class="container mt-[10px] grid grid-cols-4 box-border gap-10">
 
     <div :class="state.showCategories ? 'block' : 'hidden'">
       <div class="bg-gradient-to-r from-[#F64D4D] to-[#4D5EF6] flex text-white py-[10px] pl-[30px] pr-[60px] gap-4 items-center">
@@ -25,13 +25,13 @@ import { state } from '../store';
       </div>
     </div>
 
-    <div>
-      <img src="../../public/baner1.png" alt="" class="w-[953.25px] h-[351px]">
+    <div class="col-span-3 row-span-2">
+      <img src="../../public/baner1.png" alt="" class="w-full">
     </div>
     
     <div :class="state.showCategories ? 'hidden' : 'block'">
-      <img src="../../public/baner2.png" alt="" class="mb-7 w-[295.49px] h-[162px]">
-      <img src="../../public/baner3.png" alt="" class="w-[295.49px] h-[162px]">
+      <img src="../../public/baner2.png" alt="" class="mb-8 w-full">
+      <img src="../../public/baner3.png" alt="" class="w-full">
     </div>
   </div>
 </template>
