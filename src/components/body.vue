@@ -3,7 +3,7 @@ import { state } from '../store';
 </script>
 
 <template>
-  <div class="container mt-[10px] flex box-border gap-10 justify-center items-center">
+  <div class="container mt-[10px] flex box-border gap-10 justify-between">
 
     <div :class="state.showCategories ? 'block' : 'hidden'">
       <div class="bg-gradient-to-r from-[#F64D4D] to-[#4D5EF6] flex text-white py-[10px] pl-[30px] pr-[60px] gap-4 items-center">
