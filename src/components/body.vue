@@ -26,12 +26,12 @@ import { state } from '../store';
     </div>
 
     <div>
-      <img src="../../public/baner1.png" alt="">
+      <img src="../../public/baner1.png" alt="" class="w-[953.25px] h-[351px]">
     </div>
     
     <div :class="state.showCategories ? 'hidden' : 'block'">
-      <img src="../../public/baner2.png" alt="" class="mb-7">
-      <img src="../../public/baner3.png" alt="">
+      <img src="../../public/baner2.png" alt="" class="mb-7 w-[295.49px] h-[162px]">
+      <img src="../../public/baner3.png" alt="" class="w-[295.49px] h-[162px]">
     </div>
   </div>
 </template>
