@@ -17,12 +17,8 @@
       </div>
     </div>
 
-    <div
-      class="bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 p-[1.5px] text-center w-[187px] mt-5 ml-[1090px] mb-[20px] cursor-pointer"
-    >
-      <p class="bg-white py-[14px] text-[14px] font-medium leading-[16.41px]">
-        Все товары
-      </p>
+    <div class="w-full flex justify-end">
+      <div class="bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 p-[1.5px] text-center w-[187px] mt-5 mb-[20px] cursor-pointer"><p class="bg-white py-[14px] text-[14px] font-medium leading-[16.41px]">Все товары</p></div>
     </div>
   </div>
 </template>
